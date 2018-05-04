@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavigationPageApp.Page3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Esta es la página 3">
+            </Label>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="btnInicial" Text="Inicio">
+                </Button>
+                <Button x:Name="btnAtras" Text="Atras">
+                </Button>
+                <Button x:Name="btnModal" Text="Siguiente">
+                </Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
